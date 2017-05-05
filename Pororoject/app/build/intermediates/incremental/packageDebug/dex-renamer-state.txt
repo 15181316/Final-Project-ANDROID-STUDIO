@@ -1,0 +1,7 @@
+#Fri May 05 09:53:11 BST 2017
+base.0=C\:\\Users\\Glenn McSweeney\\Desktop\\PORORJECT\\Pororoject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_68384fed6c4d951111add60989a50d7410827291
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Glenn McSweeney\\Desktop\\PORORJECT\\Pororoject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f4c31e378aec0c5399173aebdbbffcfb7018dc13\\classes.dex
+base.1=C\:\\Users\\Glenn McSweeney\\Desktop\\PORORJECT\\Pororoject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f4c31e378aec0c5399173aebdbbffcfb7018dc13
+file.0=C\:\\Users\\Glenn McSweeney\\Desktop\\PORORJECT\\Pororoject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_68384fed6c4d951111add60989a50d7410827291\\classes.dex

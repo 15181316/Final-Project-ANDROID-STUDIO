@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Glenn McSweeney\Desktop\PORORJECT\Pororoject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Glenn McSweeney\Desktop\PORORJECT\Pororoject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_68384fed6c4d951111add60989a50d7410827291\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Glenn McSweeney\Desktop\PORORJECT\Pororoject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce7767081d71e46bd62b5d449e91ea0bb7b629f1">
+        <dex dex="C:\Users\Glenn McSweeney\Desktop\PORORJECT\Pororoject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f4c31e378aec0c5399173aebdbbffcfb7018dc13\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,204 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.testble.MainActivity" >
+
+
+    <Switch
+        android:text="Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/onOffSwitch"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/A2Input" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A1Input"
+        android:layout_below="@+id/A0Input"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A2Input"
+        android:layout_below="@+id/A1Input"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A3Input"
+        android:layout_below="@+id/A2Input"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A0Input"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ToggleButton
+        android:id="@+id/toggle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:layout_marginBottom="39dp"
+        android:layout_above="@+id/Note3"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:id="@+id/toggle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/toggle2" />
+
+    <ToggleButton
+        android:id="@+id/toggle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:layout_alignBaseline="@+id/toggle2"
+        android:layout_alignBottom="@+id/toggle2"
+        android:layout_toStartOf="@+id/toggle2" />
+
+    <Button
+        android:id="@+id/Note1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_below="@+id/toggle2"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/Note8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_below="@+id/Note4"
+        android:layout_toEndOf="@+id/Note7" />
+
+    <Button
+        android:id="@+id/Note4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:layout_above="@+id/Note7"
+        android:layout_toEndOf="@+id/Note7" />
+
+    <Button
+        android:id="@+id/Note7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="99dp"
+        android:text="B"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Note6" />
+
+    <Button
+        android:id="@+id/Note3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E"
+        android:layout_alignBaseline="@+id/Note4"
+        android:layout_alignBottom="@+id/Note4"
+        android:layout_toEndOf="@+id/Note6" />
+
+    <Button
+        android:id="@+id/Note6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_below="@+id/Note3"
+        android:layout_toEndOf="@+id/Note5" />
+
+    <Button
+        android:id="@+id/Note2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_alignBaseline="@+id/Note3"
+        android:layout_alignBottom="@+id/Note3"
+        android:layout_toEndOf="@+id/Note5" />
+
+    <Button
+        android:id="@+id/Note5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:layout_below="@+id/Note1"
+        android:layout_alignStart="@+id/Note1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tremelo"
+        android:layout_above="@+id/toggle1"
+        android:layout_alignStart="@+id/toggle1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reverb"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delay"
+        android:layout_above="@+id/toggle2"
+        android:layout_toStartOf="@+id/Note4" />
+
+    <TextView
+        android:id="@+id/voltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/volume"
+        android:layout_alignParentStart="true"
+        android:text="Volume: 0.0%" />
+
+    <SeekBar
+        android:id="@+id/volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/A3Input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/oct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/volume"
+        android:text="Octave: 4" />
+
+    <SeekBar
+        android:id="@+id/octave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="3"
+        android:layout_below="@+id/oct"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout >
